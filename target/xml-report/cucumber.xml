@@ -1,83 +1,50 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="3" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="4.65">
-    <testcase classname="US1009 editor sayfasinda giris yapilabildigini test et" name="TC13 Edito sayfasina farkli kisiler ekleme" time="4.258">
-        <failure message="null value in entry: url=null" type="java.lang.NullPointerException">
-            <![CDATA[Given kullanici "editorUrl" sayfasina gider.................................failed
-Then new butonuna basar.....................................................skipped
-And editor firstname kutusuna "Hakan" bilgileri girer.......................skipped
-And editor lastname kutusuna "Tetik" bilgileri girer........................skipped
-And editor position kutusuna "TestLead" bilgileri girer.....................skipped
-And editor office kutusuna "Paris" bilgileri girer..........................skipped
-And editor extension kutusuna "ali" bilgileri girer.........................skipped
-And editor startdate kutusuna "2021-01-21" bilgileri girer..................skipped
-And editor salary kutusuna "60000" bilgileri girer..........................skipped
-And Create tusuna basar.....................................................skipped
-Then "Hakan" ve "Tetik" girerek kaydin tamamlandigini test eder.............skipped
+<testsuite errors="0" failures="3" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="21.476">
+    <testcase classname="US1010 test failed olursa screen shot calismali" name="TC14 Amazon test" time="5.845">
+        <failure message="" type="java.lang.AssertionError">
+            <![CDATA[When kullanici "amazonUrl" sayfasina gider..................................passed
+Then basligın "amazon" icerdigini test eder.................................failed
 And sayfayi kapatir.........................................................skipped
 
 StackTrace:
-java.lang.NullPointerException: null value in entry: url=null
-	at com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:32)
-	at com.google.common.collect.SingletonImmutableBiMap.<init>(SingletonImmutableBiMap.java:42)
-	at com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:72)
-	at com.google.common.collect.ImmutableMap.of(ImmutableMap.java:124)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
-	at stepdefinitions.amazonStepDefinitions.kullaniciSayfasinaGider(amazonStepDefinitions.java:65)
-	at ✽.kullanici "editorUrl" sayfasina gider(file:///C:/Users/acer/eclipse-workspace/cucumberDeneme/src/test/resources/features/US1009_cokluGirisTest.feature:7)
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at stepdefinitions.amazonStepDefinitions.basligınIcerdiginiTestEder(amazonStepDefinitions.java:76)
+	at ✽.basligın "amazon" icerdigini test eder(file:///C:/Users/acer/eclipse-workspace/cucumberDeneme/src/test/resources/features/US1010_screenShot.feature:7)
 ]]>
         </failure>
     </testcase>
-    <testcase classname="US1009 editor sayfasinda giris yapilabildigini test et" name="TC13 Edito sayfasina farkli kisiler ekleme 2" time="0.006">
-        <failure message="null value in entry: url=null" type="java.lang.NullPointerException">
-            <![CDATA[Given kullanici "editorUrl" sayfasina gider.................................failed
-Then new butonuna basar.....................................................skipped
-And editor firstname kutusuna "Murat" bilgileri girer.......................skipped
-And editor lastname kutusuna "Ercoban" bilgileri girer......................skipped
-And editor position kutusuna "QA" bilgileri girer...........................skipped
-And editor office kutusuna "Kenya" bilgileri girer..........................skipped
-And editor extension kutusuna "126" bilgileri girer.........................skipped
-And editor startdate kutusuna "2021-01-20" bilgileri girer..................skipped
-And editor salary kutusuna "40000" bilgileri girer..........................skipped
-And Create tusuna basar.....................................................skipped
-Then "Murat" ve "Ercoban" girerek kaydin tamamlandigini test eder...........skipped
+    <testcase classname="US1010 test failed olursa screen shot calismali" name="TC15 techproeducation test" time="11.425">
+        <failure message="" type="java.lang.AssertionError">
+            <![CDATA[When kullanici "techproeducationUrl" sayfasina gider........................passed
+Then basligın "techproeducation" icerdigini test eder.......................failed
 And sayfayi kapatir.........................................................skipped
 
 StackTrace:
-java.lang.NullPointerException: null value in entry: url=null
-	at com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:32)
-	at com.google.common.collect.SingletonImmutableBiMap.<init>(SingletonImmutableBiMap.java:42)
-	at com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:72)
-	at com.google.common.collect.ImmutableMap.of(ImmutableMap.java:124)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
-	at stepdefinitions.amazonStepDefinitions.kullaniciSayfasinaGider(amazonStepDefinitions.java:65)
-	at ✽.kullanici "editorUrl" sayfasina gider(file:///C:/Users/acer/eclipse-workspace/cucumberDeneme/src/test/resources/features/US1009_cokluGirisTest.feature:7)
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at stepdefinitions.amazonStepDefinitions.basligınIcerdiginiTestEder(amazonStepDefinitions.java:76)
+	at ✽.basligın "techproeducation" icerdigini test eder(file:///C:/Users/acer/eclipse-workspace/cucumberDeneme/src/test/resources/features/US1010_screenShot.feature:12)
 ]]>
         </failure>
     </testcase>
-    <testcase classname="US1009 editor sayfasinda giris yapilabildigini test et" name="TC13 Edito sayfasina farkli kisiler ekleme 3" time="0.005">
-        <failure message="null value in entry: url=null" type="java.lang.NullPointerException">
-            <![CDATA[Given kullanici "editorUrl" sayfasina gider.................................failed
-Then new butonuna basar.....................................................skipped
-And editor firstname kutusuna "Furkan" bilgileri girer......................skipped
-And editor lastname kutusuna "Yilmaz" bilgileri girer.......................skipped
-And editor position kutusuna "QA" bilgileri girer...........................skipped
-And editor office kutusuna "Adana" bilgileri girer..........................skipped
-And editor extension kutusuna "130" bilgileri girer.........................skipped
-And editor startdate kutusuna "2021-03-21" bilgileri girer..................skipped
-And editor salary kutusuna "80000" bilgileri girer..........................skipped
-And Create tusuna basar.....................................................skipped
-Then "Furkan" ve "Yilmaz" girerek kaydin tamamlandigini test eder...........skipped
+    <testcase classname="US1010 test failed olursa screen shot calismali" name="TC16 ebay test" time="3.769">
+        <failure message="" type="java.lang.AssertionError">
+            <![CDATA[When kullanici "ebayUrl" sayfasina gider....................................passed
+Then basligın "ebay" icerdigini test eder...................................failed
 And sayfayi kapatir.........................................................skipped
 
 StackTrace:
-java.lang.NullPointerException: null value in entry: url=null
-	at com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:32)
-	at com.google.common.collect.SingletonImmutableBiMap.<init>(SingletonImmutableBiMap.java:42)
-	at com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:72)
-	at com.google.common.collect.ImmutableMap.of(ImmutableMap.java:124)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
-	at stepdefinitions.amazonStepDefinitions.kullaniciSayfasinaGider(amazonStepDefinitions.java:65)
-	at ✽.kullanici "editorUrl" sayfasina gider(file:///C:/Users/acer/eclipse-workspace/cucumberDeneme/src/test/resources/features/US1009_cokluGirisTest.feature:7)
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at stepdefinitions.amazonStepDefinitions.basligınIcerdiginiTestEder(amazonStepDefinitions.java:76)
+	at ✽.basligın "ebay" icerdigini test eder(file:///C:/Users/acer/eclipse-workspace/cucumberDeneme/src/test/resources/features/US1010_screenShot.feature:17)
 ]]>
         </failure>
     </testcase>

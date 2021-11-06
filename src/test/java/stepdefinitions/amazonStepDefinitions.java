@@ -60,13 +60,19 @@ public class amazonStepDefinitions {
         Assert.assertTrue(amazonPage.sonucYazisiElementi.getText().contains(arananKelime));
     }
 
-    @Given("kullanici {string} sayfasina gider")
-    public void kullaniciSayfasinaGider(String istenenUrl) {
-        Driver.getDriver().get(ConfigReader.getProperty(istenenUrl));
-    }
+//    @Given("kullanici {string} sayfasina gider")
+//    public void kullaniciSayfasinaGider(String istenenUrl) {
+//
+//        Driver.getDriver().get(ConfigReader.getProperty("istenenUrl"));
+//    }
 
     @And("sonuc sayisini yazdirir")
     public void sonucSayisiniYazdirir() {
         System.out.println(amazonPage.sonucYazisiElementi.getText());
+    }
+
+    @Then("basligın {string} icerdigini test eder")
+    public void basligınIcerdiginiTestEder(String arananKelime) {
+        Assert.assertTrue(Driver.getDriver().getTitle().contains(arananKelime));
     }
 }

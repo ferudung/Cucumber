@@ -1,16 +1,24 @@
 package stepdefinitions;
 
 import io.cucumber.java.en.And;
+import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import org.junit.Assert;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.interactions.Actions;
 import pages.EditorPage;
+import utilities.ConfigReader;
 import utilities.Driver;
 
 public class editorStepDefinitions {
     EditorPage editorPage=new EditorPage();
     Actions actions=new Actions(Driver.getDriver());
+
+    @Given("kullanici {string} sayfasina gider")
+    public void kullaniciSayfasinaGider(String istenenUrl) {
+
+        Driver.getDriver().get(ConfigReader.getProperty(istenenUrl));
+    }
 
     @Then("new butonuna basar")
     public void new_butonuna_basar() {
@@ -57,7 +65,7 @@ public class editorStepDefinitions {
 
         Thread.sleep(2000);
         editorPage.searchKutusu.click();
-        editorPage.searchKutusu.sendKeys(firstname + "     " + lastname + "dfdfdd");
+        editorPage.searchKutusu.sendKeys(firstname + "     " + lastname );
         Assert.assertTrue(editorPage.isimAramaIlkSatir.isDisplayed());
 
     }

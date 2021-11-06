@@ -1,12 +1,13 @@
+@Paralel2
 Feature: US1006 concort hotels sayfasında farklı kullanıcı adları ile negative test
   @CH
-  Scenario Outline: TC10 farklı kullanıcı isimlei ile negative test
-  Given kullanici "CHQAUrl" sayfasına gider
+  Scenario Outline: TC10 farkli kullanici isimlei ile negative test
+  Given kullanici "CHQAUrl" sayfasina gider
   Then CH Login linkine tiklar
   And CH username kutusuna "<wrongUserName>" yazar
   And CH password kutusuna "<wrongPassword>" yazar
   Then CH login butonuna basar
-  And giris yapılamadığını test eder
+  And giris yapildigini test eder
   And sayfayi kapatir
 
 Examples:

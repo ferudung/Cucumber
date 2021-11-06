@@ -1,5 +1,6 @@
 package stepdefinitions;
 
+import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import org.junit.Assert;
@@ -10,7 +11,7 @@ import utilities.Driver;
 public class CHQAStepDefinitions {
     CHQAPage chqaPage=new CHQAPage();
     @Given("kullanici {string} sayfasına gider")
-    public void kullanici_sayfasına_gider(String string) {
+    public void kullanici_sayfasina_gider(String string) {
       Driver.getDriver().get(ConfigReader.getProperty("CHQAUrl"));
     }
     @Then("CH Login linkine tiklar")
@@ -30,9 +31,14 @@ public class CHQAStepDefinitions {
         chqaPage.loginBtn.click();
     }
     @Then("giris yapılamadığını test eder")
-    public void giris_yapılamadığını_test_eder() {
+    public void giris_yapilamadigini_test_eder() {
         Assert.assertTrue(chqaPage.basarisizMesaj.isDisplayed());
 
 
+    }
+
+    @And("giris yapildigini test eder")
+    public void girisYapildiginiTestEder() {
+        Assert.assertTrue(chqaPage.basarisizMesaj.isDisplayed());
     }
 }
