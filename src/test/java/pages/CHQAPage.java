@@ -22,5 +22,7 @@ public class CHQAPage {
     @FindBy(xpath = "//span[text()='Try again please']")
     public WebElement basarisizMesaj;
 
+    @FindBy(xpath = "//a[text()='ListOfUsers']")
+    public WebElement listOfUsersYaziElementi;
 
 }

@@ -1,5 +1,6 @@
 stepdefinitions\editorStepDefinitions.class
 pages\AmazonPage.class
+stepdefinitions\Hooks.class
 runners\ParalelTestRunner1.class
 runners\Runner.class
 stepdefinitions\amazonStepDefinitions.class

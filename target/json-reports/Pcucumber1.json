@@ -3,17 +3,39 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2021-11-05T19:37:23.391Z",
+        "start_timestamp": "2021-11-10T10:37:45.749Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5981000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setup()"
+            }
+          }
+        ],
         "line": 5,
         "name": "TC01 amazon nutella arama",
         "description": "",
         "id": "us1001-amazon-arama;tc01-amazon-nutella-arama",
+        "after": [
+          {
+            "result": {
+              "duration": 2035498000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 5424949300,
+              "duration": 7354336600,
               "status": "passed"
             },
             "line": 7,
@@ -25,7 +47,7 @@
           },
           {
             "result": {
-              "duration": 2390992000,
+              "duration": 3779507100,
               "status": "passed"
             },
             "line": 8,
@@ -37,7 +59,7 @@
           },
           {
             "result": {
-              "duration": 207913900,
+              "duration": 144515800,
               "status": "passed"
             },
             "line": 9,
@@ -49,7 +71,7 @@
           },
           {
             "result": {
-              "duration": 677043400,
+              "duration": 659639200,
               "status": "passed"
             },
             "line": 10,
@@ -70,17 +92,38 @@
         ]
       },
       {
-        "start_timestamp": "2021-11-05T19:37:32.124Z",
+        "start_timestamp": "2021-11-10T10:37:59.770Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setup()"
+            }
+          }
+        ],
         "line": 13,
         "name": "TC02 amazon java arama",
         "description": "",
         "id": "us1001-amazon-arama;tc02-amazon-java-arama",
+        "after": [
+          {
+            "result": {
+              "duration": 2083171700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 3625218800,
+              "duration": 4381925100,
               "status": "passed"
             },
             "line": 15,
@@ -92,7 +135,7 @@
           },
           {
             "result": {
-              "duration": 3350673000,
+              "duration": 3590559800,
               "status": "passed"
             },
             "line": 16,
@@ -104,7 +147,7 @@
           },
           {
             "result": {
-              "duration": 111880700,
+              "duration": 134547800,
               "status": "passed"
             },
             "line": 17,
@@ -116,7 +159,7 @@
           },
           {
             "result": {
-              "duration": 814765300,
+              "duration": 725083200,
               "status": "passed"
             },
             "line": 18,
@@ -137,17 +180,38 @@
         ]
       },
       {
-        "start_timestamp": "2021-11-05T19:37:40.042Z",
+        "start_timestamp": "2021-11-10T10:38:10.697Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setup()"
+            }
+          }
+        ],
         "line": 21,
         "name": "TC03 amazon ipad arama",
         "description": "",
         "id": "us1001-amazon-arama;tc03-amazon-ipad-arama",
+        "after": [
+          {
+            "result": {
+              "duration": 2047773800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 3625791300,
+              "duration": 3896498800,
               "status": "passed"
             },
             "line": 23,
@@ -159,7 +223,7 @@
           },
           {
             "result": {
-              "duration": 2713201000,
+              "duration": 3808183100,
               "status": "passed"
             },
             "line": 24,
@@ -171,7 +235,7 @@
           },
           {
             "result": {
-              "duration": 143888100,
+              "duration": 82722200,
               "status": "passed"
             },
             "line": 25,
@@ -183,7 +247,7 @@
           },
           {
             "result": {
-              "duration": 680733500,
+              "duration": 649353800,
               "status": "passed"
             },
             "line": 26,
@@ -232,7 +296,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4153682100,
+              "duration": 3966568900,
               "status": "passed"
             },
             "line": 5,
@@ -245,17 +309,38 @@
         ]
       },
       {
-        "start_timestamp": "2021-11-05T19:37:47.221Z",
+        "start_timestamp": "2021-11-10T10:38:21.205Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setup()"
+            }
+          }
+        ],
         "line": 7,
         "name": "TC04 amazon nutella arama",
         "description": "",
         "id": "us1002-amazon-background-ile-arama;tc04-amazon-nutella-arama",
+        "after": [
+          {
+            "result": {
+              "duration": 2094357800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 2420789000,
+              "duration": 3355958700,
               "status": "passed"
             },
             "line": 8,
@@ -267,7 +352,7 @@
           },
           {
             "result": {
-              "duration": 87962800,
+              "duration": 154981100,
               "status": "passed"
             },
             "line": 9,
@@ -279,7 +364,7 @@
           },
           {
             "result": {
-              "duration": 626299000,
+              "duration": 676365200,
               "status": "passed"
             },
             "line": 10,
@@ -305,7 +390,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3561810000,
+              "duration": 3498881900,
               "status": "passed"
             },
             "line": 5,
@@ -318,17 +403,38 @@
         ]
       },
       {
-        "start_timestamp": "2021-11-05T19:37:54.510Z",
+        "start_timestamp": "2021-11-10T10:38:31.461Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setup()"
+            }
+          }
+        ],
         "line": 13,
         "name": "TC05 amazon java arama",
         "description": "",
         "id": "us1002-amazon-background-ile-arama;tc05-amazon-java-arama",
+        "after": [
+          {
+            "result": {
+              "duration": 1970208600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 3192290800,
+              "duration": 3521192100,
               "status": "passed"
             },
             "line": 14,
@@ -340,7 +446,7 @@
           },
           {
             "result": {
-              "duration": 80001900,
+              "duration": 73754200,
               "status": "passed"
             },
             "line": 15,
@@ -352,7 +458,7 @@
           },
           {
             "result": {
-              "duration": 639871200,
+              "duration": 656990700,
               "status": "passed"
             },
             "line": 16,
@@ -381,7 +487,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3071106100,
+              "duration": 3199662200,
               "status": "passed"
             },
             "line": 5,
@@ -394,17 +500,38 @@
         ]
       },
       {
-        "start_timestamp": "2021-11-05T19:38:01.984Z",
+        "start_timestamp": "2021-11-10T10:38:41.189Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setup()"
+            }
+          }
+        ],
         "line": 18,
         "name": "TC06 amazon ipad arama",
         "description": "",
         "id": "us1002-amazon-background-ile-arama;tc06-amazon-ipad-arama",
+        "after": [
+          {
+            "result": {
+              "duration": 2130177200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 2574923800,
+              "duration": 3364541000,
               "status": "passed"
             },
             "line": 19,
@@ -416,7 +543,7 @@
           },
           {
             "result": {
-              "duration": 79965100,
+              "duration": 106645200,
               "status": "passed"
             },
             "line": 20,
@@ -428,7 +555,7 @@
           },
           {
             "result": {
-              "duration": 636106500,
+              "duration": 653069100,
               "status": "passed"
             },
             "line": 21,

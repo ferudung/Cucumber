@@ -3,17 +3,39 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2021-11-05T19:37:23.376Z",
+        "start_timestamp": "2021-11-10T10:37:45.761Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3988800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setup()"
+            }
+          }
+        ],
         "line": 14,
         "name": "TC09 amazonda verilen bie listeyi aratıp, var olduklarını test ediniz",
         "description": "",
         "id": "us1005-amazonda-liste-ile-arama;tc09-amazonda-verilen-bie-listeyi-aratıp--var-olduklarını-test-ediniz;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 2030440000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 5480549300,
+              "duration": 7617459900,
               "status": "passed"
             },
             "line": 4,
@@ -25,7 +47,7 @@
           },
           {
             "result": {
-              "duration": 2367010300,
+              "duration": 3812391900,
               "status": "passed"
             },
             "line": 5,
@@ -43,7 +65,7 @@
           },
           {
             "result": {
-              "duration": 167931300,
+              "duration": 76742000,
               "status": "passed"
             },
             "line": 6,
@@ -55,7 +77,7 @@
           },
           {
             "result": {
-              "duration": 79964400,
+              "duration": 30894300,
               "status": "passed"
             },
             "line": 7,
@@ -73,7 +95,7 @@
           },
           {
             "result": {
-              "duration": 659824100,
+              "duration": 640701600,
               "status": "passed"
             },
             "line": 8,
@@ -91,17 +113,39 @@
         ]
       },
       {
-        "start_timestamp": "2021-11-05T19:37:32.170Z",
+        "start_timestamp": "2021-11-10T10:38:00.029Z",
+        "before": [
+          {
+            "result": {
+              "duration": 994300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setup()"
+            }
+          }
+        ],
         "line": 15,
         "name": "TC09 amazonda verilen bie listeyi aratıp, var olduklarını test ediniz",
         "description": "",
         "id": "us1005-amazonda-liste-ile-arama;tc09-amazonda-verilen-bie-listeyi-aratıp--var-olduklarını-test-ediniz;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 2177862600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 3858184600,
+              "duration": 4185640200,
               "status": "passed"
             },
             "line": 4,
@@ -113,7 +157,7 @@
           },
           {
             "result": {
-              "duration": 2966777900,
+              "duration": 3604512500,
               "status": "passed"
             },
             "line": 5,
@@ -131,7 +175,7 @@
           },
           {
             "result": {
-              "duration": 71952600,
+              "duration": 137539400,
               "status": "passed"
             },
             "line": 6,
@@ -143,7 +187,7 @@
           },
           {
             "result": {
-              "duration": 32056600,
+              "duration": 73751800,
               "status": "passed"
             },
             "line": 7,
@@ -161,7 +205,7 @@
           },
           {
             "result": {
-              "duration": 926646000,
+              "duration": 679237800,
               "status": "passed"
             },
             "line": 8,
@@ -179,17 +223,39 @@
         ]
       },
       {
-        "start_timestamp": "2021-11-05T19:37:40.026Z",
+        "start_timestamp": "2021-11-10T10:38:10.902Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1989300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setup()"
+            }
+          }
+        ],
         "line": 16,
         "name": "TC09 amazonda verilen bie listeyi aratıp, var olduklarını test ediniz",
         "description": "",
         "id": "us1005-amazonda-liste-ile-arama;tc09-amazonda-verilen-bie-listeyi-aratıp--var-olduklarını-test-ediniz;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 2097608500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 3561359300,
+              "duration": 3956300100,
               "status": "passed"
             },
             "line": 4,
@@ -201,7 +267,7 @@
           },
           {
             "result": {
-              "duration": 2801115500,
+              "duration": 2733346700,
               "status": "passed"
             },
             "line": 5,
@@ -219,7 +285,7 @@
           },
           {
             "result": {
-              "duration": 87969200,
+              "duration": 259142400,
               "status": "passed"
             },
             "line": 6,
@@ -231,7 +297,7 @@
           },
           {
             "result": {
-              "duration": 55966600,
+              "duration": 125574100,
               "status": "passed"
             },
             "line": 7,
@@ -249,7 +315,7 @@
           },
           {
             "result": {
-              "duration": 657212700,
+              "duration": 707586400,
               "status": "passed"
             },
             "line": 8,
@@ -267,17 +333,38 @@
         ]
       },
       {
-        "start_timestamp": "2021-11-05T19:37:47.190Z",
+        "start_timestamp": "2021-11-10T10:38:20.795Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setup()"
+            }
+          }
+        ],
         "line": 17,
         "name": "TC09 amazonda verilen bie listeyi aratıp, var olduklarını test ediniz",
         "description": "",
         "id": "us1005-amazonda-liste-ile-arama;tc09-amazonda-verilen-bie-listeyi-aratıp--var-olduklarını-test-ediniz;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 2095618000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 3848966900,
+              "duration": 3836997400,
               "status": "passed"
             },
             "line": 4,
@@ -289,7 +376,7 @@
           },
           {
             "result": {
-              "duration": 1927191900,
+              "duration": 2170288800,
               "status": "passed"
             },
             "line": 5,
@@ -307,7 +394,7 @@
           },
           {
             "result": {
-              "duration": 71969200,
+              "duration": 122590200,
               "status": "passed"
             },
             "line": 6,
@@ -319,7 +406,7 @@
           },
           {
             "result": {
-              "duration": 32003000,
+              "duration": 52702200,
               "status": "passed"
             },
             "line": 7,
@@ -337,7 +424,7 @@
           },
           {
             "result": {
-              "duration": 908477800,
+              "duration": 659548800,
               "status": "passed"
             },
             "line": 8,
@@ -355,17 +442,38 @@
         ]
       },
       {
-        "start_timestamp": "2021-11-05T19:37:53.978Z",
+        "start_timestamp": "2021-11-10T10:38:29.741Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setup()"
+            }
+          }
+        ],
         "line": 18,
         "name": "TC09 amazonda verilen bie listeyi aratıp, var olduklarını test ediniz",
         "description": "",
         "id": "us1005-amazonda-liste-ile-arama;tc09-amazonda-verilen-bie-listeyi-aratıp--var-olduklarını-test-ediniz;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 2137813200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 3453286300,
+              "duration": 3113800200,
               "status": "passed"
             },
             "line": 4,
@@ -377,7 +485,7 @@
           },
           {
             "result": {
-              "duration": 1775260800,
+              "duration": 2190896600,
               "status": "passed"
             },
             "line": 5,
@@ -395,7 +503,7 @@
           },
           {
             "result": {
-              "duration": 63996100,
+              "duration": 144513700,
               "status": "passed"
             },
             "line": 6,
@@ -407,7 +515,7 @@
           },
           {
             "result": {
-              "duration": 23999000,
+              "duration": 71761300,
               "status": "passed"
             },
             "line": 7,
@@ -425,7 +533,7 @@
           },
           {
             "result": {
-              "duration": 663732000,
+              "duration": 698664400,
               "status": "passed"
             },
             "line": 8,
@@ -463,17 +571,38 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2021-11-05T19:37:59.982Z",
+        "start_timestamp": "2021-11-10T10:38:38.125Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setup()"
+            }
+          }
+        ],
         "line": 15,
         "name": "TC10 farkli kullanici isimlei ile negative test",
         "description": "",
         "id": "us1006-concort-hotels-sayfasında-farklı-kullanıcı-adları-ile-negative-test;tc10-farkli-kullanici-isimlei-ile-negative-test;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 2107530800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 4680284200,
+              "duration": 4886509800,
               "status": "passed"
             },
             "line": 5,
@@ -485,13 +614,13 @@
                   "offset": 10
                 }
               ],
-              "location": "stepdefinitions.amazonStepDefinitions.kullaniciSayfasinaGider(java.lang.String)"
+              "location": "stepdefinitions.editorStepDefinitions.kullaniciSayfasinaGider(java.lang.String)"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 927615400,
+              "duration": 866615200,
               "status": "passed"
             },
             "line": 6,
@@ -503,7 +632,7 @@
           },
           {
             "result": {
-              "duration": 191918100,
+              "duration": 184393000,
               "status": "passed"
             },
             "line": 7,
@@ -521,7 +650,7 @@
           },
           {
             "result": {
-              "duration": 175924000,
+              "duration": 147500300,
               "status": "passed"
             },
             "line": 8,
@@ -539,7 +668,7 @@
           },
           {
             "result": {
-              "duration": 831653700,
+              "duration": 931603100,
               "status": "passed"
             },
             "line": 9,
@@ -551,7 +680,7 @@
           },
           {
             "result": {
-              "duration": 79964400,
+              "duration": 119606400,
               "status": "passed"
             },
             "line": 10,
@@ -563,7 +692,7 @@
           },
           {
             "result": {
-              "duration": 983465700,
+              "duration": 925922500,
               "status": "passed"
             },
             "line": 11,
@@ -584,17 +713,38 @@
         ]
       },
       {
-        "start_timestamp": "2021-11-05T19:38:07.861Z",
+        "start_timestamp": "2021-11-10T10:38:48.300Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setup()"
+            }
+          }
+        ],
         "line": 16,
         "name": "TC10 farkli kullanici isimlei ile negative test",
         "description": "",
         "id": "us1006-concort-hotels-sayfasında-farklı-kullanıcı-adları-ile-negative-test;tc10-farkli-kullanici-isimlei-ile-negative-test;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 1967384900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 5073482600,
+              "duration": 4828487600,
               "status": "passed"
             },
             "line": 5,
@@ -606,13 +756,13 @@
                   "offset": 10
                 }
               ],
-              "location": "stepdefinitions.amazonStepDefinitions.kullaniciSayfasinaGider(java.lang.String)"
+              "location": "stepdefinitions.editorStepDefinitions.kullaniciSayfasinaGider(java.lang.String)"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 719677500,
+              "duration": 724572300,
               "status": "passed"
             },
             "line": 6,
@@ -624,7 +774,7 @@
           },
           {
             "result": {
-              "duration": 111949100,
+              "duration": 104166500,
               "status": "passed"
             },
             "line": 7,
@@ -642,7 +792,7 @@
           },
           {
             "result": {
-              "duration": 127973000,
+              "duration": 108628900,
               "status": "passed"
             },
             "line": 8,
@@ -660,7 +810,7 @@
           },
           {
             "result": {
-              "duration": 759656000,
+              "duration": 753987500,
               "status": "passed"
             },
             "line": 9,
@@ -672,7 +822,7 @@
           },
           {
             "result": {
-              "duration": 63974700,
+              "duration": 62770200,
               "status": "passed"
             },
             "line": 10,
@@ -684,7 +834,7 @@
           },
           {
             "result": {
-              "duration": 627215600,
+              "duration": 632886100,
               "status": "passed"
             },
             "line": 11,
@@ -705,17 +855,38 @@
         ]
       },
       {
-        "start_timestamp": "2021-11-05T19:38:15.353Z",
+        "start_timestamp": "2021-11-10T10:38:57.495Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setup()"
+            }
+          }
+        ],
         "line": 17,
         "name": "TC10 farkli kullanici isimlei ile negative test",
         "description": "",
         "id": "us1006-concort-hotels-sayfasında-farklı-kullanıcı-adları-ile-negative-test;tc10-farkli-kullanici-isimlei-ile-negative-test;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 2044662300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 4649970600,
+              "duration": 5714788000,
               "status": "passed"
             },
             "line": 5,
@@ -727,13 +898,13 @@
                   "offset": 10
                 }
               ],
-              "location": "stepdefinitions.amazonStepDefinitions.kullaniciSayfasinaGider(java.lang.String)"
+              "location": "stepdefinitions.editorStepDefinitions.kullaniciSayfasinaGider(java.lang.String)"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 695936000,
+              "duration": 704689500,
               "status": "passed"
             },
             "line": 6,
@@ -745,7 +916,7 @@
           },
           {
             "result": {
-              "duration": 103956300,
+              "duration": 106653000,
               "status": "passed"
             },
             "line": 7,
@@ -763,7 +934,7 @@
           },
           {
             "result": {
-              "duration": 111994500,
+              "duration": 75754500,
               "status": "passed"
             },
             "line": 8,
@@ -781,7 +952,7 @@
           },
           {
             "result": {
-              "duration": 871594600,
+              "duration": 711893700,
               "status": "passed"
             },
             "line": 9,
@@ -793,7 +964,7 @@
           },
           {
             "result": {
-              "duration": 63980100,
+              "duration": 58808100,
               "status": "passed"
             },
             "line": 10,
@@ -805,7 +976,7 @@
           },
           {
             "result": {
-              "duration": 933913700,
+              "duration": 913924900,
               "status": "passed"
             },
             "line": 11,
@@ -826,17 +997,38 @@
         ]
       },
       {
-        "start_timestamp": "2021-11-05T19:38:22.793Z",
+        "start_timestamp": "2021-11-10T10:39:07.832Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setup()"
+            }
+          }
+        ],
         "line": 18,
         "name": "TC10 farkli kullanici isimlei ile negative test",
         "description": "",
         "id": "us1006-concort-hotels-sayfasında-farklı-kullanıcı-adları-ile-negative-test;tc10-farkli-kullanici-isimlei-ile-negative-test;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 1963393100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 5058666900,
+              "duration": 4373363600,
               "status": "passed"
             },
             "line": 5,
@@ -848,13 +1040,13 @@
                   "offset": 10
                 }
               ],
-              "location": "stepdefinitions.amazonStepDefinitions.kullaniciSayfasinaGider(java.lang.String)"
+              "location": "stepdefinitions.editorStepDefinitions.kullaniciSayfasinaGider(java.lang.String)"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 727717500,
+              "duration": 696667700,
               "status": "passed"
             },
             "line": 6,
@@ -866,7 +1058,7 @@
           },
           {
             "result": {
-              "duration": 111974700,
+              "duration": 105653500,
               "status": "passed"
             },
             "line": 7,
@@ -884,7 +1076,7 @@
           },
           {
             "result": {
-              "duration": 95914900,
+              "duration": 94675900,
               "status": "passed"
             },
             "line": 8,
@@ -902,7 +1094,7 @@
           },
           {
             "result": {
-              "duration": 719743200,
+              "duration": 786236500,
               "status": "passed"
             },
             "line": 9,
@@ -914,7 +1106,7 @@
           },
           {
             "result": {
-              "duration": 55934400,
+              "duration": 69764100,
               "status": "passed"
             },
             "line": 10,
@@ -926,7 +1118,7 @@
           },
           {
             "result": {
-              "duration": 625035300,
+              "duration": 643829500,
               "status": "passed"
             },
             "line": 11,
@@ -947,17 +1139,38 @@
         ]
       },
       {
-        "start_timestamp": "2021-11-05T19:38:30.188Z",
+        "start_timestamp": "2021-11-10T10:39:16.573Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setup()"
+            }
+          }
+        ],
         "line": 19,
         "name": "TC10 farkli kullanici isimlei ile negative test",
         "description": "",
         "id": "us1006-concort-hotels-sayfasında-farklı-kullanıcı-adları-ile-negative-test;tc10-farkli-kullanici-isimlei-ile-negative-test;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 1946272800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 4511623000,
+              "duration": 4476809800,
               "status": "passed"
             },
             "line": 5,
@@ -969,13 +1182,13 @@
                   "offset": 10
                 }
               ],
-              "location": "stepdefinitions.amazonStepDefinitions.kullaniciSayfasinaGider(java.lang.String)"
+              "location": "stepdefinitions.editorStepDefinitions.kullaniciSayfasinaGider(java.lang.String)"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 783668800,
+              "duration": 708232800,
               "status": "passed"
             },
             "line": 6,
@@ -987,7 +1200,7 @@
           },
           {
             "result": {
-              "duration": 112017000,
+              "duration": 119312700,
               "status": "passed"
             },
             "line": 7,
@@ -1005,7 +1218,7 @@
           },
           {
             "result": {
-              "duration": 119890500,
+              "duration": 93989300,
               "status": "passed"
             },
             "line": 8,
@@ -1023,7 +1236,7 @@
           },
           {
             "result": {
-              "duration": 815971500,
+              "duration": 958772400,
               "status": "passed"
             },
             "line": 9,
@@ -1035,7 +1248,7 @@
           },
           {
             "result": {
-              "duration": 63924800,
+              "duration": 68770100,
               "status": "passed"
             },
             "line": 10,
@@ -1047,7 +1260,7 @@
           },
           {
             "result": {
-              "duration": 911805400,
+              "duration": 625895100,
               "status": "passed"
             },
             "line": 11,
