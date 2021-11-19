@@ -1,3 +1,5 @@
+
+
 package runners;
 
 import io.cucumber.junit.Cucumber;
@@ -11,11 +13,13 @@ import org.junit.runner.RunWith;
                 "junit:target/xml-report/cucumber.xml"},
         features="src/test/resources/features",
         glue="dbStepdefinitions",
-        tags="@db"  ,
+        tags="@dbupdate"  ,
 
         dryRun= false
 
 )
+
+
 
 public class DbRunner {
 }
